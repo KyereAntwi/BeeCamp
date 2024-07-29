@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B399F52C-B631-4F2E-8E80-79C908F1039B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{2CBB7850-DDC4-46CB-85CB-B0B8BF65437D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapp", "webapp", "{5E6689EB-90CC-4BE5-A394-70E98FAEC3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeCamp.Api", "BeeCamp.Api\BeeCamp.Api.csproj", "{B59DB0E2-F839-40A0-A99A-F63E7146EA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeCamp.WorkSpaces", "BeeCamp.WorkSpaces\BeeCamp.WorkSpaces.csproj", "{712E8EB5-AAFA-4F4E-B5AE-0B44E6951FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeCamp.Projects", "BeeCamp.Projects\BeeCamp.Projects.csproj", "{EE0DC55C-9311-4031-B57A-7EE1C3FF57DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeCamp.Teams", "BeeCamp.Teams\BeeCamp.Teams.csproj", "{28C33D71-47C6-423F-B4A2-3F441FC736A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeCamp.Shared", "BeeCamp.Shared\BeeCamp.Shared.csproj", "{937240A2-48EA-4F86-A444-68F35B220079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B59DB0E2-F839-40A0-A99A-F63E7146EA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59DB0E2-F839-40A0-A99A-F63E7146EA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59DB0E2-F839-40A0-A99A-F63E7146EA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59DB0E2-F839-40A0-A99A-F63E7146EA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712E8EB5-AAFA-4F4E-B5AE-0B44E6951FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712E8EB5-AAFA-4F4E-B5AE-0B44E6951FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712E8EB5-AAFA-4F4E-B5AE-0B44E6951FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712E8EB5-AAFA-4F4E-B5AE-0B44E6951FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0DC55C-9311-4031-B57A-7EE1C3FF57DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0DC55C-9311-4031-B57A-7EE1C3FF57DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0DC55C-9311-4031-B57A-7EE1C3FF57DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0DC55C-9311-4031-B57A-7EE1C3FF57DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C33D71-47C6-423F-B4A2-3F441FC736A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C33D71-47C6-423F-B4A2-3F441FC736A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C33D71-47C6-423F-B4A2-3F441FC736A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C33D71-47C6-423F-B4A2-3F441FC736A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937240A2-48EA-4F86-A444-68F35B220079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937240A2-48EA-4F86-A444-68F35B220079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937240A2-48EA-4F86-A444-68F35B220079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937240A2-48EA-4F86-A444-68F35B220079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CBB7850-DDC4-46CB-85CB-B0B8BF65437D} = {B399F52C-B631-4F2E-8E80-79C908F1039B}
+		{5E6689EB-90CC-4BE5-A394-70E98FAEC3E6} = {B399F52C-B631-4F2E-8E80-79C908F1039B}
+		{B59DB0E2-F839-40A0-A99A-F63E7146EA0C} = {5E6689EB-90CC-4BE5-A394-70E98FAEC3E6}
+		{712E8EB5-AAFA-4F4E-B5AE-0B44E6951FBE} = {2CBB7850-DDC4-46CB-85CB-B0B8BF65437D}
+		{EE0DC55C-9311-4031-B57A-7EE1C3FF57DC} = {2CBB7850-DDC4-46CB-85CB-B0B8BF65437D}
+		{28C33D71-47C6-423F-B4A2-3F441FC736A1} = {2CBB7850-DDC4-46CB-85CB-B0B8BF65437D}
+		{937240A2-48EA-4F86-A444-68F35B220079} = {2CBB7850-DDC4-46CB-85CB-B0B8BF65437D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72ED1415-830F-44FB-998F-DDD0DAA221DB}
+	EndGlobalSection
+EndGlobal
