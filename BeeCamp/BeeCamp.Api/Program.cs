@@ -1,16 +1,14 @@
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console().CreateBootstrapLogger();
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Host.UseSerilog((context, loggerConfiguration) => loggerConfiguration
+    .WriteTo.Console()
+    .ReadFrom.Configuration(context.Configuration));
 
-var app = builder.Build();
+var app = builder.RegisterServices().RegisterPipeline();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
+app.UseSerilogRequestLogging();
 
 app.Run();
